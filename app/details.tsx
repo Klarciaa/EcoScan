@@ -6,7 +6,7 @@ export default function DetailsScreen() {
   const params = useLocalSearchParams();
   const product = params.product ? JSON.parse(params.product) : {};
 
-  // Uniwersalne pobieranie kalorii z różnych możliwych pól
+ 
   const calories =
     product.nutriments?.energy_kcal ||
     product.nutriments?.energy ||

@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
   brand: { fontSize: 14, color: '#777' },
 });
 
-// Ukrycie napisu na pasku u góry (pasek zostaje, ale nie ma tytułu)
+
 export const options = {
   headerTitle: '',
 };
